@@ -10,8 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\GroupCollapse.png" />
-    <None Remove="Images\GroupExpand.png" />
     <None Remove="Images\Image0.png" />
     <None Remove="Images\Image1.png" />
     <None Remove="Images\Image10.png" />
@@ -44,8 +42,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Images\GroupCollapse.png" />
-    <EmbeddedResource Include="Images\GroupExpand.png" />
     <EmbeddedResource Include="Images\Image0.png" />
     <EmbeddedResource Include="Images\Image1.png" />
     <EmbeddedResource Include="Images\Image10.png" />
@@ -78,7 +74,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="17.2.0.28-beta" />
-    <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="18.4.0.43" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
   </ItemGroup>
 </Project>
